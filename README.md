@@ -20,7 +20,6 @@
 
 > [!WARNING]
 > Standalone co-op, Chat, and its VR keyboard are still experimental. Text or other menu elements may occasionally appear blurry or visually incorrect; restarting the app or headset usually clears these issues. Co-op can also produce minor visual bugs. Large lobbies may reduce performance, and gameplay-changing server mods can cause visual problems, broken behavior, or crashes. Disconnecting may recover the session; otherwise, fully restart the game. Controller keyboard text chat is available.
-> There is a known crash while opening Jolly Roger Bay for the first time. It should work on restart, will be fixed in next update.
 
 ### Multiplayer and public-lobby safety
 
