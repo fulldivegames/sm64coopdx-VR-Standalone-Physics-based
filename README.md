@@ -13,13 +13,24 @@
   Native ARM64/OpenXR VR for Meta Quest. No PC is required after installation.
 </p>
 
-> **Current public release: v0.8.4 — SteamVR and Controller Binding Fixes**
+> **Current public release: v0.9 — Visuals, Speedrunning and VR Improvements**
 
 > [!WARNING]
 > This is an active, vibe-coded, yet fairly polished fan project. The standalone edition has been tested on **Meta Quest 3 only**. It has **not been tested on Quest 2 by me**, and neither edition has been tested across every multiplayer situation, ROM hack, or mod combination. Occasional crashes or issues might occur. If you have any performance issues on default settings in the base game, a reset usually fixes things (You should be getting a stable 120 FPS on Quest 3, on most if not all base game maps)
 
 > [!WARNING]
 > Standalone co-op, Chat, and its VR keyboard are still experimental. Text or other menu elements may occasionally appear blurry or visually incorrect; restarting the app or headset usually clears these issues. Co-op can also produce minor visual bugs. Large lobbies may reduce performance, and gameplay-changing server mods can cause visual problems, broken behavior, or crashes. Disconnecting may recover the session; otherwise, fully restart the game. Controller keyboard text chat is available.
+
+### New in v0.9 — Visuals, Speedrunning and VR Improvements
+
+- Cell Shaded and expanded grayscale filters, plus stationary crossed trees.
+- Improved Character Select theater rendering, menu text and modded health bars.
+- VR Speedrunning menu with named splits, HUD controls, progressive reveal and LiveSplit split-file imports. Longer split names fit without the old 18-character cutoff.
+- Improved Big Hands climbing and contacts, treasure-chest interaction, cap grabbing and power-up music behavior.
+- PC offline Whisper dictation with faster processing and press-again-to-finish controls; Quest retains Android speech recognition. Keep the complete PC speech folder. Wine/Proton speech is not yet verified.
+- Updated tutorial; retained large-map renderer improvements, optional normal maps and VR-specific updating.
+
+See the [v0.9 release notes](https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/tag/v0.9). PC can reuse a previously supplied ROM from its saved-data folder; no ROM is included.
 
 ### Multiplayer and public-lobby safety
 
