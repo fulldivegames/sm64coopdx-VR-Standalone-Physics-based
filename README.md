@@ -13,7 +13,7 @@
   Native ARM64/OpenXR VR for Meta Quest. No PC is required after installation.
 </p>
 
-> **Current public release: v0.9 — Visuals, Speedrunning and VR Improvements**
+> **Current public release: v0.9.2 — Physical Gestures and New Power-Ups**
 
 > [!WARNING]
 > This is an active, vibe-coded, yet fairly polished fan project. The standalone edition has been tested on **Meta Quest 3 only**. It has **not been tested on Quest 2 by me**, and neither edition has been tested across every multiplayer situation, ROM hack, or mod combination. Occasional crashes or issues might occur. If you have any performance issues on default settings in the base game, a reset usually fixes things (You should be getting a stable 120 FPS on Quest 3, on most if not all base game maps)
@@ -21,16 +21,27 @@
 > [!WARNING]
 > Standalone co-op, Chat, and its VR keyboard are still experimental. Text or other menu elements may occasionally appear blurry or visually incorrect; restarting the app or headset usually clears these issues. Co-op can also produce minor visual bugs. Large lobbies may reduce performance, and gameplay-changing server mods can cause visual problems, broken behavior, or crashes. Disconnecting may recover the session; otherwise, fully restart the game. Controller keyboard text chat is available.
 
-### New in v0.9 — Visuals, Speedrunning and VR Improvements
+### New in v0.9.2 — Physical Gestures and New Power-Ups
 
-- Cell Shaded and expanded grayscale filters, plus stationary crossed trees.
-- Improved Character Select theater rendering, menu text and modded health bars.
-- VR Speedrunning menu with named splits, HUD controls, progressive reveal and LiveSplit split-file imports. Longer split names fit without the old 18-character cutoff.
-- Improved Big Hands climbing and contacts, treasure-chest interaction, cap grabbing and power-up music behavior.
-- PC offline Whisper dictation with faster processing and press-again-to-finish controls; Quest retains Android speech recognition. Keep the complete PC speech folder. Wine/Proton speech is not yet verified.
-- Updated tutorial; retained large-map renderer improvements, optional normal maps and VR-specific updating.
+- Added Propeller Mushroom: a 60-second power-up with an airborne burst, slow glide, crouch-controlled spinning descent, stomp rebounds, and a customizable propeller helmet.
+- Added Power Star: 30 seconds of enemy-contact invincibility, 1.5x running speed and jump height, rainbow shimmer, torso sparkles, and dedicated music with a four-second expiry fade. Its bouncing pickup floats on water surfaces.
+- Added physical jumping and swimming. Jump with either/both fists, sustain height by holding a fist up, and use gestures for jump chains, wall kicks and Propeller bursts. Swimming supports alternating strokes and overhead upward pulls.
+- On the first 0.9.2 launch, physical jumping, swimming, punching, grabbing, climbing, swing release and motion dives are enabled for everyone. Physical crouching is unchanged. You can disable these actions again; later launches retain your choices.
+- Added optional trigger-based jumping, adjustable physical crouch depth, and stronger climb-release jumps for hard swings.
+- Added relative power-up spawn weights, grouped Power-Ups / Specials / Gestures, and optional 60-second timers for Big Hands and Power Star. Both Specials have half the ordinary spawn weight at equal slider settings.
+- Added cosmetic power-up helmets and cap-state matching when grabbing your hat; updated the in-game tutorial for current controls and power-ups.
 
-See the [v0.9 release notes](https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/tag/v0.9). PC can reuse a previously supplied ROM from its saved-data folder; no ROM is included.
+Fixes and refinements
+- Improved PC physical jump recognition using tracked hand travel, and restored the jump-kick voice without re-enabling incidental airborne punch sounds.
+- Hardened native and menu text against inherited fog, texture and alpha state; improved long-text handling and reduced redundant word-measurement work.
+- Smoothed body tracking and corrected carried/thrown camera anchoring. Physical wall kicks retain full jump height while the triggering fist stays raised.
+- Improved swimming, surface shell riding, crouch/head-height handling, and gesture separation to reduce accidental punches and dives.
+- Corrected power-up music selection, replacement, held-cap size, and Propeller activation after small jumps, water exits and surface contacts.
+- Improved PC shader compatibility, OpenGL backend selection, and updater transfer handling. Existing saves, mods, palettes and other options are retained.
+
+PC: extract the complete ZIP, including speech and music assets. No ROM is supplied. PC speech under Wine/Proton and untested GPU/runtime combinations are not certified.
+
+See the [v0.9.2 release](https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/tag/v0.9.2) for downloads. No ROM is included.
 
 ### Multiplayer and public-lobby safety
 
