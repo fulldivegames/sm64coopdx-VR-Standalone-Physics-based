@@ -13,7 +13,7 @@
   Native ARM64/OpenXR VR for Meta Quest. No PC is required after installation.
 </p>
 
-> **Current public release: v0.9.2 — Physical Gestures and New Power-Ups**
+> **Current public release: v0.9.21 — Physical Gestures and New Power-Ups**
 
 > [!WARNING]
 > This is an active, vibe-coded, yet fairly polished fan project. The standalone edition has been tested on **Meta Quest 3 only**. It has **not been tested on Quest 2 by me**, and neither edition has been tested across every multiplayer situation, ROM hack, or mod combination. Occasional crashes or issues might occur. If you have any performance issues on default settings in the base game, a reset usually fixes things (You should be getting a stable 120 FPS on Quest 3, on most if not all base game maps)
@@ -21,7 +21,9 @@
 > [!WARNING]
 > Standalone co-op, Chat, and its VR keyboard are still experimental. Text or other menu elements may occasionally appear blurry or visually incorrect; restarting the app or headset usually clears these issues. Co-op can also produce minor visual bugs. Large lobbies may reduce performance, and gameplay-changing server mods can cause visual problems, broken behavior, or crashes. Disconnecting may recover the session; otherwise, fully restart the game. Controller keyboard text chat is available.
 
-### New in v0.9.2 — Physical Gestures and New Power-Ups
+### New in v0.9.21 — Physical Gestures and New Power-Ups
+
+- Added Speed Running Mode (Vanilla Game), optional Vanilla Movement (Restrictive Jumps), and Disable Punch Sound for physical punches only; saved preferences and jump/jump-kick sounds are preserved.
 
 - Added Propeller Mushroom: a 60-second power-up with an airborne burst, slow glide, crouch-controlled spinning descent, stomp rebounds, and a customizable propeller helmet.
 - Added Power Star: 30 seconds of enemy-contact invincibility, 1.5x running speed and jump height, rainbow shimmer, torso sparkles, and dedicated music with a four-second expiry fade. Its bouncing pickup floats on water surfaces.
@@ -41,7 +43,7 @@ Fixes and refinements
 
 PC: extract the complete ZIP, including speech and music assets. No ROM is supplied. PC speech under Wine/Proton and untested GPU/runtime combinations are not certified.
 
-See the [v0.9.2 release](https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/tag/v0.9.2) for downloads. No ROM is included.
+See the [v0.9.21 release](https://github.com/fulldivegames/sm64coopdx-VR-Standalone-Physics-based/releases/tag/v0.9.21) for downloads. No ROM is included.
 
 ### Multiplayer and public-lobby safety
 
