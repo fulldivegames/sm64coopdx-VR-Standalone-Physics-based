@@ -1,4 +1,6 @@
-## v0.9.2 — Physical Gestures and New Power-Ups
+## v0.9.21 — Physical Gestures and New Power-Ups
+
+- Added Speed Running Mode (Vanilla Game), optional Vanilla Movement (Restrictive Jumps), and Disable Punch Sound for physical punches only; saved preferences and jump/jump-kick sounds are preserved.
 
 - Added Propeller Mushroom: a 60-second power-up with an airborne burst, slow glide, crouch-controlled spinning descent, stomp rebounds, and a customizable propeller helmet.
 - Added Power Star: 30 seconds of enemy-contact invincibility, 1.5x running speed and jump height, rainbow shimmer, torso sparkles, and dedicated music with a four-second expiry fade. Its bouncing pickup floats on water surfaces.
